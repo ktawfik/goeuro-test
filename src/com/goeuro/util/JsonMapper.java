@@ -1,6 +1,6 @@
 /**
  * This is a generic utility class that map json objects to java objects
- * @author karim_tawfik
+ * @author Karim
  *
  */
 package com.goeuro.util;

@@ -1,5 +1,7 @@
 package com.goeuro.util;
-
+/**
+ * @author Karim
+ */
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
