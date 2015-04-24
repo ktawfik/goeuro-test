@@ -11,6 +11,7 @@ public class CSVFileWriter {
 
 	private final BufferedWriter br;
 	private final String path;
+	private static final String CSV = ".csv";
 	/**
 	 * Class constructor that takes the filepath as a parameter.
 	 * this constructor deletes the file if exists, and create a new file, here I decided to delete as the data
@@ -30,7 +31,7 @@ public class CSVFileWriter {
 			
 		}
 		this.path = filePath;
-		File f = new File(path);
+		File f = new File(path + CSV);
 		if(f.exists()){
 			System.out.println("Already exists file with name:" + path);
 			f.delete();
