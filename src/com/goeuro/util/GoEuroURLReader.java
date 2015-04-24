@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class GoEuroURLReader {
 
-	public static final String DEFAULT_API_ENDPOINT = "http://api.goeuro.com/api/v2/position/suggest/en/";
+	public static final String DEFAULT_API_ENDPOINT = "http://api.goeuro.com/api/v2/position/suggest/en";
 	public static final String REQUEST_METHOD="GET";
 	
 	public static InputStream getInputStream(String apiEndPoint, String reqMethod){
@@ -40,7 +40,7 @@ public class GoEuroURLReader {
 	
 	
 	public static InputStream getInputStream(String apiEndPoint){
-		return getInputStream(DEFAULT_API_ENDPOINT, REQUEST_METHOD);
+		return getInputStream(apiEndPoint, REQUEST_METHOD);
 	}
 	
 	

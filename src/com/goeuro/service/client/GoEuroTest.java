@@ -12,9 +12,6 @@ import com.goeuro.util.CSVFileWriter;
  */
 public class GoEuroTest {
 	
-	// the API endpoint url.
-	public static final String API_ENDPOINT="http://api.goeuro.com/api/v2/position/suggest/en/";
-	
 	public static void main(String[] args) throws Exception {
 		GoEuroTest g = new GoEuroTest();
 		if(args.length > 0)
